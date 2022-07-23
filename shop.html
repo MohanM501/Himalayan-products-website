@@ -606,6 +606,10 @@
         prices.innerText="$"+shopdata[i].price;
         insidediv.append(cartlg,prices)
         dive.append(imgs,names,insidediv);
+        dive.addEventListener("click",function(){
+            addtocart(shopdata,i);
+            
+        })
         }
         
     }
@@ -681,4 +685,20 @@
         window.location.href="mainpagee.html";
     })
 
+</script>
+<script>
+     function addtocart(shopdata,i){
+          console.log(i);
+          let B=JSON.parse(localStorage.getItem("cartdetails"))||[];
+          for (let j=0;j<B.length;j++){
+              if(B[j].uniqueId==shopdata[i].uniqueId){
+                  alert("Already Item has been added")
+                  return
+              }
+          }
+          B.push(shopdata[i]);
+          localStorage.setItem("cartdetails",JSON.stringify(B))
+          alert("added successfuly");
+          window.location.href="cart.html";
+     }
 </script>
