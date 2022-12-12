@@ -4,7 +4,7 @@
 <h3>Indivisual Projct created using basic HTML, CSS and JS </h3>
 
 <p>
-  <img src="https://i.ibb.co/1LRKz2d/Time-Tracker.png" alt="time"/>
+  <img src="https://i.ibb.co/7XMHfHW/himalyan-project-log.jpg" alt="time"/>
 </p>
 
 <h3>Himalyan is shopping website to buy hair and skinny products across the world </h3>
