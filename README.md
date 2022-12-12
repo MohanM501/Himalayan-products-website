@@ -15,7 +15,7 @@
 
 <h3># navbar & footer</h3>
 <h3># login and signup page</h3>
-<h3># added add to product functionaliy</h3>
+<h3># added add to product functionality</h3>
 <h3># Filtering based on numbers and alphabetical order</h3>
 
 
