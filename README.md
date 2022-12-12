@@ -20,6 +20,6 @@
 
 
 <p>
-<h3>Deployed link: https://project-unit4.vercel.app/</h3>
+<h3>Deployed link: https://tubular-puffpuff-4a880b.netlify.app/</h3>
 </p>
 
